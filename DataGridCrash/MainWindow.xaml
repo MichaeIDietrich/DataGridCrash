@@ -1,0 +1,9 @@
+﻿<Window x:Class="DataGridCrash.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DataGrid Crash">
+    <StackPanel>
+        <DataGrid x:Name="DataGrid" Height="150" />
+        <TextBlock>Set focus into first cell and press F1 key.</TextBlock>
+    </StackPanel>
+</Window>
